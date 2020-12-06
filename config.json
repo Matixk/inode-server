@@ -1,0 +1,43 @@
+{
+  "autoDiscovery": {
+    "enabled": true,
+    "remember": false
+  },
+  "ble": {
+    "enabled": false
+  },
+  "http": {
+    "enabled": true,
+    "gsmUploadUrl": "/1337",
+    "gsmReportDumpPath": "./reports.json",
+    "gsmReportRestoreTime": 15,
+    "host": "0.0.0.0",
+    "port": 3000
+  },
+  "ws": {
+    "enabled": true,
+    "path": "/devices",
+    "host": "0.0.0.0",
+    "port": 3000
+  },
+  "devices": [
+    {
+      "id": "nav-1",
+      "enabled": true,
+      "unit": 1,
+      "mac": "D0:F0:18:43:EB:69"
+    },
+    {
+      "id": "nav-2",
+      "enabled": true,
+      "unit": 2,
+      "mac": "D0:F0:18:43:F2:B5"
+    }
+  ],
+  "mock": {
+    "macs": [
+      "MOCK:MAC:1",
+      "MOCK:MAC:2"
+    ]
+  }
+}

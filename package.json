@@ -8,15 +8,19 @@
     "email": "lukasz@miracle.systems",
     "url": "https://miracle.systems/"
   },
-  "keywords": ["inode", "bluetooth", "ble", "iot", "modbus", "gsm", "sensor", "websocket"],
+  "keywords": [
+    "inode",
+    "bluetooth",
+    "ble",
+    "iot",
+    "modbus",
+    "gsm",
+    "sensor",
+    "websocket"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "start": "node ./lib/index.js"
-  },
-  "bugs": "https://github.com/morkai/inode-server/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/morkai/inode-server.git"
   },
   "dependencies": {
     "ws": "^1.1.0",
@@ -24,6 +28,6 @@
     "h5.modbus": "github:morkai/h5.modbus#master",
     "h5.modbus.inode": "github:morkai/h5.modbus.inode#master",
     "h5.bluetooth.hci": "github:morkai/h5.bluetooth.hci#master",
-    "h5.bluetooth.hci.inode": "github:morkai/h5.bluetooth.hci.inode#master"
+    "h5.bluetooth.hci.inode": "github:Matixk/h5.bluetooth.hci.inode#master"
   }
 }
